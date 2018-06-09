@@ -24,6 +24,7 @@ namespace TechJobs.Data
         }
 
         private static JobData instance;
+
         public static JobData GetInstance()
         {
             if (instance == null)
